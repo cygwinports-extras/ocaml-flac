@@ -1,0 +1,4 @@
+category: Audio OCaml
+requires: libFLAC8 libFLAC-devel ocaml-base ocaml-ogg
+sdesc: "OCaml FLAC bindings"
+ldesc: "This package contains an O'Caml interface for the FLAC codec library."
