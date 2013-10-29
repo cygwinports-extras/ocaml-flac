@@ -2,7 +2,7 @@ inherit ocaml
 
 NAME="ocaml-flac"
 VERSION=0.1.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="OCaml FLAC bindings"
 DESCRIPTION="This package contains an OCaml interface for the FLAC codec library."
