@@ -1,10 +1,13 @@
 inherit ocaml
 
-CATEGORY="OCaml"
+NAME="ocaml-flac"
+VERSION=0.1.1
+RELEASE=1
+CATEGORY="Libs"
 SUMMARY="OCaml FLAC bindings"
 DESCRIPTION="This package contains an OCaml interface for the FLAC codec library."
 HOMEPAGE="http://savonet.sourceforge.net/"
-SRC_URI="mirror://sourceforge/savonet/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/savonet/${NAME}-${VERSION}.tar.gz"
 PATCH_URI="0.1.0-byteswap.patch"
 
 src_compile() {
